@@ -12,3 +12,6 @@ build:
 
 package-install:
 	uv tool install dist/$(PACKAGE_NAME)-$(VERSION)-py3-none-any.whl
+
+lint:
+	uv run ruff check brain_games
