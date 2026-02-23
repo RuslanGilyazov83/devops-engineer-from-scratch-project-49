@@ -1,0 +1,32 @@
+import random
+
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+MAX_NUMBER = 100
+
+
+def is_prime(number):
+    """Проверяет, является ли число простым."""
+    if number < 2:
+        return False
+
+    if number == 2:
+        return True
+
+    if number % 2 == 0:
+        return False
+
+    i = 3
+    while i * i <= number:
+        if number % i == 0:
+            return False
+        i += 2
+
+    return True
+
+
+def generate_round():
+    number = random.randint(1, MAX_NUMBER)
+    question = str(number)
+    correct_answer = 'yes' if is_prime(number) else 'no'
+
+    return question, correct_answer
