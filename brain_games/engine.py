@@ -2,7 +2,14 @@ import prompt
 
 
 def run_game(description, generate_round):
+    """
+    Запускает игру.
 
+    Args:
+        description: Строка с описанием правил игры
+        generate_round: Функция, которая генерирует один раунд
+                       и возвращает (question, correct_answer)
+    """
     from brain_games.cli import welcome_user
 
     print('Welcome to the Brain Games!')
@@ -22,11 +29,10 @@ def run_game(description, generate_round):
             print('Correct!')
             correct_answers += 1
         else:
-            print(
+            error_msg = (
                 f"'{user_answer}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'."
             )
+            print(error_msg)
             print(f"Let's try again, {name}!")
             return
-
-    print(f'Congratulations, {name}!')
