@@ -11,9 +11,9 @@ OPERATIONS = [
 
 
 def generate_round():
-    num1 = random.randint(1, MAX_NUMBER)
-    num2 = random.randint(1, MAX_NUMBER)
-    symbol, operation = random.choice(OPERATIONS)
+    num1 = random.randint(1, MAX_NUMBER)  # nosec
+    num2 = random.randint(1, MAX_NUMBER)  # nosec
+    symbol, operation = random.choice(OPERATIONS)  # nosec
 
     question = f'{num1} {symbol} {num2}'
     correct_answer = str(operation(num1, num2))

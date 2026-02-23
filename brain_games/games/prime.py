@@ -25,7 +25,7 @@ def is_prime(number):
 
 
 def generate_round():
-    number = random.randint(1, MAX_NUMBER)
+    number = random.randint(1, MAX_NUMBER)  # nosec
     question = str(number)
     correct_answer = 'yes' if is_prime(number) else 'no'
 
