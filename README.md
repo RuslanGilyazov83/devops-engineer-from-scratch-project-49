@@ -10,3 +10,4 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
 [![Actions Status](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions)
+[![Asciicast](https://asciinema.org/connect/146682d3-deec-4a29-b1a5-32a519723354)](https://asciinema.org/connect/146682d3-deec-4a29-b1a5-32a519723354)

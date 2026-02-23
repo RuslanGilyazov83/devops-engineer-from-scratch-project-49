@@ -1,8 +1,5 @@
-import prompt
-
-
 def welcome_user():
-    """Запрашивает имя пользователя и приветствует его."""
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
+    print('May I have your name? ', end='')
+    name = input().strip()  # <-- Используем input() и strip()
+    print(f'Hello, {name}!')
     return name
