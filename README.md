@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Hexlet tests and linter status:
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
@@ -11,3 +12,17 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
 [![Actions Status](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions)
 [![Asciicast](https://asciinema.org/connect/146682d3-deec-4a29-b1a5-32a519723354)](https://asciinema.org/connect/146682d3-deec-4a29-b1a5-32a519723354)
+=======
+### Hexlet tests and linter status:
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=RuslanGilyazov83_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=RuslanGilyazov83_devops-engineer-from-scratch-project-49)
+[![Actions Status](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RuslanGilyazov83/devops-engineer-from-scratch-project-49/actions)
+>>>>>>> 8cc642e65cbc897504c7ca7e334803d455de2d42
