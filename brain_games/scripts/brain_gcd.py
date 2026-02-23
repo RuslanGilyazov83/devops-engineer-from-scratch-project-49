@@ -6,5 +6,5 @@ def main():
     engine.run_game(gcd.DESCRIPTION, gcd.generate_round)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

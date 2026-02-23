@@ -6,5 +6,5 @@ def main():
     engine.run_game(even.DESCRIPTION, even.generate_round)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -6,5 +6,5 @@ def main():
     engine.run_game(prime.DESCRIPTION, prime.generate_round)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

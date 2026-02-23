@@ -1,6 +1,6 @@
 import random
 
-DESCRIPTION = 'What number is missing in the progression?'
+DESCRIPTION = "What number is missing in the progression?"
 PROGRESSION_LENGTH = 10
 MAX_START = 50
 MAX_STEP = 10
@@ -22,8 +22,8 @@ def generate_round():
     correct_answer = str(progression[hidden_index])
 
     # Заменяем скрытое число на ".."
-    progression[hidden_index] = '..'
+    progression[hidden_index] = ".."
 
-    question = ' '.join(map(str, progression))
+    question = " ".join(map(str, progression))
 
     return question, correct_answer

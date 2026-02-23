@@ -6,5 +6,5 @@ def main():
     engine.run_game(progression.DESCRIPTION, progression.generate_round)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
