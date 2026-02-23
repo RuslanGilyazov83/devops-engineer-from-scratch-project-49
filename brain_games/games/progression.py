@@ -11,14 +11,14 @@ def generate_progression(start, step, length):
 
 
 def generate_round():
-    start = random.randint(1, MAX_START)  # nosec
-    step = random.randint(1, MAX_STEP)  # nosec
+    start = random.randint(1, MAX_START)  # NOSONAR
+    step = random.randint(1, MAX_STEP)  # NOSONAR
     length = PROGRESSION_LENGTH
 
     progression = generate_progression(start, step, length)
 
     # Выбираем случайный индекс для скрытия
-    hidden_index = random.randint(0, length - 1)  # nosec
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     correct_answer = str(progression[hidden_index])
 
     # Заменяем скрытое число на ".."

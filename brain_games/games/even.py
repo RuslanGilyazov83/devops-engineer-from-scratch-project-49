@@ -13,7 +13,7 @@ def get_correct_answer(number):
 
 
 def generate_round():
-    number = random.randint(1, MAX_NUMBER)  # nosec
+    number = random.randint(1, MAX_NUMBER)  # NOSONAR
     question = str(number)
     correct_answer = get_correct_answer(number)
     return question, correct_answer
