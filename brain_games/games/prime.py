@@ -5,7 +5,6 @@ MAX_NUMBER = 100
 
 
 def is_prime(number):
-    """Проверяет, является ли число простым."""
     if number < 2:
         return False
 
