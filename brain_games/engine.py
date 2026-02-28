@@ -1,19 +1,18 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
-def run_game(description, generate_round):
-
-    from brain_games.cli import welcome_user
+def run_game(game_module):
 
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print(description)
+    print(game_module.DESCRIPTION)
 
     correct_answers = 0
     total_questions = 3
 
     while correct_answers < total_questions:
-        question, correct_answer = generate_round()
+        question, correct_answer = game_module.generate_round()
         print(f'Question: {question}')
 
         user_answer = prompt.string('Your answer: ')
